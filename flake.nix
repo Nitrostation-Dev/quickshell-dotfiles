@@ -157,8 +157,7 @@
                                     "gitcommit"
                                     "gitignore"
 
-                                    "rust"
-                                    "toml"
+                                    "qml"
                                 ];
                             };
                         };

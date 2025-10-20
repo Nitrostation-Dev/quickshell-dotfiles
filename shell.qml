@@ -3,17 +3,14 @@
 import Quickshell
 import QtQuick
 
-import "./widgets/bar"
-
+import "./modules/bar"
+import "./modules/lockscreen"
 
 ShellRoot {
 	id: root
-	
-	// Bar {}
-
 
 	Loader {
 		active: true
-		source: "widgets/bar/Bar.qml"
+		source: "modules/bar/Bar.qml"
 	}
 }
