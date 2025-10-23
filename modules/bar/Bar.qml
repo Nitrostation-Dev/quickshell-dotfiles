@@ -52,7 +52,7 @@ Scope {
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.leftMargin: 5
 
-                    BarWorkspaces {}
+                    Workspaces {}
                 }
 
                 Row {
@@ -68,17 +68,10 @@ Scope {
                     height: parent.height
 
                     spacing: 10
-
-                    // children: [
-                    //     BarTime {}
-                    // ]
-
-                    BarTime {}
-                    Battery {}
-                    // Text {
-                    //     text: "HELLO"
-                    //     color: "white"
-                    // }
+                    
+                    // MusicPlayer {}
+                    // Time {}
+                    // Battery {}
                 }
                 Rectangle {
                     anchors.fill: barRight

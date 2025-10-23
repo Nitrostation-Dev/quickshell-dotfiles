@@ -3,7 +3,6 @@ import Quickshell
 import Quickshell.Io
 
 Row {
-
     anchors.verticalCenter: parent.verticalCenter
 
     Text {
