@@ -74,10 +74,11 @@ Scope {
                     // ]
 
                     BarTime {}
-                    Text {
-                        text: "HELLO"
-                        color: "white"
-                    }
+                    Battery {}
+                    // Text {
+                    //     text: "HELLO"
+                    //     color: "white"
+                    // }
                 }
                 Rectangle {
                     anchors.fill: barRight

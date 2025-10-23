@@ -49,10 +49,10 @@ Row {
                 color: {
                     if (modelData.active) {
                         return "white";
-                    } else if (occupied) {
-                        return "gray";
+                    // } else if (occupied) {
+                    //     return "gray";
                     } else {
-                        return "red";
+                        return "gray";
                     }
                 }
 
